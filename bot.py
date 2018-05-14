@@ -4,7 +4,7 @@ import importlib
 from telegram.ext import Updater
 from telegram.ext.dispatcher import run_async
 
-updater = Updater(token=os.environ.get('TG_TOKEN') or "")
+updater = Updater(token=os.environ.get('542435999:AAGc2SbUeZuj2K5Ie1FJzf8W9UzORDc1-LY') or "")
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='[%(asctime)s][%(name)s][%(levelname)s] %(message)s',
